@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	font-family: 'Inter', sans-serif;
+	overflow: hidden;
 }
 
 .container{
@@ -16,7 +18,7 @@
 	gap: 1rem;
 }
 
-.container>img{
+.container img{
 	width: 150px;
 	border-radius: 50%;
 	padding: 4px;
@@ -36,12 +38,26 @@
 
 input[type="button"]{
 	font-size: 16px;
-	border: 1px solid transparent;
-	border-radius: 15px;
-	padding: 6px 16px;
+	border: none;
+	padding: 3px 13px;
 	transition: 0.5s;
+	text-align: center;
 }
 
-input[type="button"]:hover{
-	border: 1px solid gray;
+#title-home{
+	font-family: 'Recursive', sans-serif;
+	font-style: italic;
+}
+
+.flip:hover  {
+	animation: flip 2.5s ;
+}
+
+@keyframes flip {
+	0%  { 
+		transform: rotateY(360deg); 
+	}
+	100%  { 
+		transform: rotateY(-360deg); 
+	}
 }

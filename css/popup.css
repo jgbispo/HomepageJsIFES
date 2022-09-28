@@ -16,13 +16,16 @@
 #paragraph{
 	margin-bottom: 15px;
 }
-
+#close{
+	margin-bottom: 15px;
+}
 .content-popup{
-	width:	30vw;
+	width:	35vw;
+	overflow-y: auto;
 }
 
-
-h1{
+#popup h1{
+	margin-top: 15px;
 	margin-bottom: 15px;
   font-weight: 800;
 }

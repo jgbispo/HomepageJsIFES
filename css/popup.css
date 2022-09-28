@@ -8,6 +8,11 @@
 	gap: 2rem;
 }
 
+.card-work{
+  margin-bottom: 20px;
+  text-indent: 2rem;
+}
+
 #paragraph{
 	margin-bottom: 15px;
 }
@@ -16,14 +21,18 @@
 	width:	30vw;
 }
 
+
 h1{
-	margin-bottom: 5px;
+	margin-bottom: 15px;
+  font-weight: 800;
 }
 
 h2{
 	margin-bottom: 3px;
-	
+  font-weight: 300;
+  text-indent: 1rem;
 }
+
 
 .content-popup>p{
 	text-indent: 1rem;
@@ -37,9 +46,11 @@ input:hover{
 	transform: translateY(-0.3px);
 	box-shadow: 3px 4px 7px gray;
 }
+
 ul{
 	list-style-type: none;
 }
+
 li{
 	padding: 2px;
 }
@@ -48,12 +59,12 @@ li p{
 	text-align: justify;	
 }
 
-li a{
+.card-work a{
 	text-decoration: none;
 	color: purple;
 }
 
-li span{
+.card-work span{
 	font-size: 12px;
 	background-color: #267dcc;
 	padding: 2px 3px;
